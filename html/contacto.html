@@ -3,3 +3,60 @@
 <!-- p -->
 <!-- Enlaces a index, ingredientes, pasos y contacto -->
 <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frixuelos</title>
+        <style>
+            body {
+                background-image: url(../img/fondorosita.jpg);
+            }
+            h1 {
+                font-size:350%;
+            }
+            a {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Receta Frixuelos</h1></center>
+        
+        <pre > 
+                                              <a href="./index.html" >Inicio</a>               <a href="./ingredientes.html" >Ingredientes</a>               <a href="./pasos.html" >Pasos</a>               <a href="./contacto.html" >Contacto</a>                
+        </pre>
+
+        <h2>Datos</h2>
+        <form>
+            <label for="nombre">Introduce tu nombre</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre aquí"><br>
+
+            <label for="mail">Introduce tu email</label><br>
+            <input type="email" name="mail" id="mail" placeholder="example@gmail.com"><br>
+
+            <h3>Selecciona el tipo de consulta</h3>
+            <input type="radio" name="consultas" id="radio-consulta">
+            <label for="radio-consulta">Consulta</label><br>
+            
+            <input type="radio" name="consultas" id="radio-sugerencia">
+            <label for="radio-sugerencia">Sugerencia</label><br>
+            
+            <input type="radio" name="consultas" id="radio-corrección">
+            <label for="radio-corrección">Corrección</label><br><br>
+
+
+            <label for="comentario">Escribe tu comentario</label><br>
+            <textarea name="comentario" id="comentario" cols="20" rows="5"></textarea><br>
+
+            <input type="checkbox" name="politica" id="politica">
+            <label for="politica">Acepto la política de privacidad</label><br><br>
+
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </body>
+    </html>
